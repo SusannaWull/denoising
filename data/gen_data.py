@@ -135,7 +135,7 @@ class Generator(object):
         else:
             noise_part = 2
 
-        padding, hop = self.conf['padding'], self.conf['hop'] # hop帧和帧之间的间隔？？？
+        padding, hop = self.conf['padding'], self.conf['hop'] # hop
         v_ftp = self.conf['feat']['feat.clean'] # voice feature type
         m_ftp = self.conf['feat']['feat.mix'] # mix feature type
 

@@ -12,6 +12,7 @@ data = {
     'hop': 160, # 帧移，一般是窗长的一半
     'norm_feat': False, # 是否对feat正则化
     'voice_root': 'dataset/TSP.one/',
+    # 'voice_root': 'dataset/TIMIT+Noisex92/TIMIT',
     'noise_root': 'dataset/Noisex92.all',
     'dir_max_n': 6, # 文件中数量最多选6个
     'padding': True, # 不足2^N，自动补零

@@ -15,7 +15,7 @@ modified from Matlab code:
 Copyright 2009: Delft University of Technology, Signal & Information
 Processing Lab. The software is free for non-commercial use. This program
 comes WITHOUT ANY WARRANTY.
-    知道有stoi这个评价指标就可以了，可以不细看
+    目前知道有stoi这个评价指标就可以了，可以不细看
 '''
 
 import numpy as np
