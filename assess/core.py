@@ -25,6 +25,7 @@ else:
 # Machine limits for integer types
 # Maximum value of given dtype
 max_int = np.iinfo(np.int16).max
+
 # (float) The smallest positive usable number.
 # Type of tiny is an appropriate floating point type.
 min_pf = np.finfo(np.float32).tiny
